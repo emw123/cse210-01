@@ -55,8 +55,8 @@ def move(player, board):
     board[spot - 1] = player
 
 
-def next_move(now):
-
+def next_move(now): 
+    
     if now == '' or now == 'o':
         return 'x'
 
